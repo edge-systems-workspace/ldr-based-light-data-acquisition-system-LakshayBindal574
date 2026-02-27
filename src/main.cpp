@@ -7,7 +7,6 @@ void setup() {
     Serial.println("LDR test");
 
 }
-
 void loop() {
     // write your code here
     int ldrRaw = analogRead(LDR_PIN);
